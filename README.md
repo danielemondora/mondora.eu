@@ -1,6 +1,6 @@
 # mondora.eu
 
-Sito portfolio sviluppato con [BuildAwesome](https://buildawesome.me/) e [WebC](https://www.11ty.dev/docs/plugins/webc/) ed ospitato su [Cloudflare Workers](https://www.cloudflare.com/products/workers/).
+Sito portfolio sviluppato con [BuildAwesome](https://build.awesome.me/) e [WebC](https://www.11ty.dev/docs/languages/webc/) ed ospitato su [Cloudflare Workers](https://www.cloudflare.com/products/workers/).
 
 ## Struttura
 
