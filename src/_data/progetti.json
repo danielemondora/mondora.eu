@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Prato Maslino",
+    "domain": "pratomaslino.it",
+    "url": "https://pratomaslino.it/",
+    "description": "Pagina istituzionale del Consorzio di Prato Maslino e Vignone per promozione turistica e pubblicazioni di avvisi e documentazione."
+  },
+  {
+    "name": "Bar Pizzeria Laghetto",
+    "domain": "laghettogrosotto.it",
+    "url": "https://laghettogrosotto.it/",
+    "description": "Sito Web con il nuovo menu online per una Pizzeria in provincia di Sondrio, con gestionale per la modifica del menu e degli orari di apertura tramite RESTful API custom sviluppata con Cloudflare Worker e KV."
+  },
+  {
+    "name": "IAV - Istituto Archeologico Valtellinese",
+    "domain": "archeologicovaltellinese.it",
+    "url": "https://archeologicovaltellinese.it/",
+    "description": "Sito Web con sezione avvisi ed archivio digitale delle pubblicazioni scientifiche dell'Istituto Archeologico, con ricerca statica tramite pagefind."
+  }
+]

@@ -1,0 +1,51 @@
+<!doctype html>
+<html :lang="site.language">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title @text="title || site.title"></title>
+        <meta name="description" :content="site.description" />
+        <meta name="generator" :content="buildawesome.generator" />
+        <meta name="robots" content="noindex" />
+
+        <style webc:keep @raw="getBundle('css')"></style>
+    </head>
+    <body>
+        <header>
+            <h1 @text="site.title"></h1>
+        </header>
+
+        <main @raw="content"></main>
+
+        <footer>
+            <p>
+                Sito web realizzato con
+                <a
+                    href="https://build.awesome.me/"
+                    @text="buildawesome.generator"
+                ></a
+                >.
+            </p>
+            <p>
+                <a :href="site.repository.url"
+                    >Codice sorgente di questo sito web</a
+                >
+            </p>
+        </footer>
+    </body>
+</html>
+
+<style>
+    html {
+        background: oklch(0.85 0.03 95);
+    }
+    body {
+        max-width: 50rem;
+        padding-inline: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);
+        margin-inline: auto;
+        position: relative;
+    }
+    a {
+        color: oklch(0.57 0.13 50);
+    }
+</style>

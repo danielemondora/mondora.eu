@@ -1,0 +1,24 @@
+{
+  "name": "mondora.eu",
+  "version": "1.0.0",
+  "description": "Landing Page con portfolio e contatti",
+  "scripts": {
+    "start": "buildawesome --serve",
+    "build": "buildawesome"
+  },
+  "author": {
+    "name": "Daniele Mondora",
+    "email": "github@mondora.eu",
+    "github": "https://github.com/danielemondora"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielemondora/mondora.eu.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "dependencies": {
+    "@awesome.me/buildawesome": "^4.0.0-alpha.12",
+    "@11ty/eleventy-plugin-webc": "^0.12.0-beta.8"
+  }
+}
